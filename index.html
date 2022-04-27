@@ -17,7 +17,7 @@
     <header>
         <section>
             <!-- Agregamos la imagen del logo de alura-->
-            <img src="./img/logo.png" alt="Logo de Alura" class="logo-alura">
+            <img src="img/logo.png" alt="Logo de Alura" class="logo-alura">
         </section>
     </header>
 
@@ -27,13 +27,19 @@
             <input type="text" name="ingresa-text" id="input-texto" placeholder="Ingrese el texto aqui">
         </section>
 
-        <section class="rectangle-panel">
-            <div class="panel">
-                <img class="muñeco" src="./img/muñeco.png" alt="Imagen Muñeco con lupa">
+        <section class="rectangle-panel panel">
+            <div id="panelEnterText">
+                <img class="muñeco" src="img/muñeco.png" alt="Imagen Muñeco con lupa">
                 <div class="messages">
                     <div class="message-fail"> Ningun mensaje fue encontrado</div>
                     <div class="message-enterText"> Ingresa el texto que desees encriptar o desencriptar</div>
                 </div>
+            </div>
+
+            <div class="invisible" id="panelOutputText">
+                <label for="finalText"></label>
+                <input type="text" name="finalText" id="final-text">
+                <button class="btn-copy"><a class="text-copy">Copiar</a></button>
             </div>
         </section>
 
@@ -50,6 +56,8 @@
         </section>
 
     </main>
-    
+    <!-- llamamos a nuestros scripts -->
+    <script src="./js/encriptador.js"></script>
+
 </body>
 </html>

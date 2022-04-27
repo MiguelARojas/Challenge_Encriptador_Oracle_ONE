@@ -36,7 +36,7 @@ body {
 .panel {
     position: absolute;
     width: 400px;
-    height: 944px;
+    height: 880px;
     left: 1400px;
     top: 40px;
     background: #FFFFFF;
@@ -208,6 +208,43 @@ body {
 .text-desencriptar {
     position: static;
     width: 280px;
+    height: 19px;
+    left: 24px;
+    top: 24px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #0A3871;
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+    margin: 0px 8px;
+}
+
+.invisible {
+    display: none;
+}
+
+.btn-copy {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 24px;
+    position: absolute;
+    width: 336px;
+    height: 67px;
+    left: 30px;
+    top: 800px;
+    border: 1px solid #0A3871;
+    box-sizing: border-box;
+    border-radius: 24px;
+}
+.text-copy {
+    position: static;
+    width: 288px;
     height: 19px;
     left: 24px;
     top: 24px;
