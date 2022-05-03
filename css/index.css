@@ -279,3 +279,18 @@ body {
     outline: none;
     background: none;
 }
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .logo-alura {
+        width: 100px;
+        height: 50.58px;
+        top: 73.42px;
+    }
+
+    #input-texto {
+        width: 688px;
+        height: 48px;
+        left: 40px;
+        top: 240px;
+    }
+}
