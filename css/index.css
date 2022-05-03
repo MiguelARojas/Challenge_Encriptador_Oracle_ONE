@@ -280,6 +280,11 @@ body {
     background: none;
 }
 
+/*
+    Aqui se realizaran los cambios en los diseños dependiendo el tamaño de la ventana
+*/
+
+/* Cambios para Tablet */
 @media screen and (min-width: 768px) and (max-width: 1024px) {
     .logo-alura {
         width: 100px;
@@ -292,5 +297,66 @@ body {
         height: 48px;
         left: 40px;
         top: 240px;
+    }
+
+    .warning {
+        left: 40px;
+        top: 836px;
+    }
+
+    .buttons {
+        left: 25px;
+        top: 870px;
+    }
+
+    .panel {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 32px;
+        width: 670px;
+        height: 100px;
+        left: 20px;
+        top: 1001px;
+    }
+
+    .muñeco {
+        display: none;
+    }
+
+    .messages {
+        position: static;
+        width: 624px;
+        height: 69px;
+        left: 32px;
+        top: 32px;
+        flex: none;
+        order: 0;
+        align-self: stretch;
+        flex-grow: 0;
+        margin: 32px 0px;
+    }
+
+    .message-fail {
+        width: 624px;
+        height: 29px;
+    }
+
+    .message-enterText {
+        width: 624px;
+        height: 24px;
+        top: 45px;
+    }
+
+    .btn-copy {
+        position: absolute;
+        width: 624px;
+        left: 50px;
+        top: 544px;
+        flex: none;
+        order: 1;
+        align-self: stretch;
+        flex-grow: 0;
+        margin: 32px 0px;
     }
 }
