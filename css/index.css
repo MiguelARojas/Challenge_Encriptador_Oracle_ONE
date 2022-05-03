@@ -363,3 +363,91 @@ body {
 
 
 /*  Cambios para celular  */
+@media screen and (min-width: 360px) and (max-width: 380px) {
+    .logo-alura {
+        width: 100px;
+        height: 50.58px;
+        left: -15px;
+        top: 15px;
+    }
+
+    #input-texto {
+        width: 335px;
+        height: 150px;
+        left: 40px;
+        top: 240px;
+    }
+
+    .warning {
+        left: 16px;
+        top: 490px;
+    }
+
+    .buttons {
+        flex-direction: column;
+        width: 343px;
+        height: 158px;
+        left: 16px;
+        top: 500px;
+    }
+
+    .btn-encriptar {
+        width: 335px;
+        height: 67px;
+        align-self: stretch;
+        margin: 24px 0px;
+    }
+
+    .btn-desencriptar {
+        width: 335px;
+        height: 67px;
+        align-self: stretch;
+        margin: 24px 0px;
+        top: 91px;
+    }
+
+    .panel {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 32px;
+        width: 260px;
+        height: 400px;
+        left: 20px;
+        top: 825px;
+    }
+
+    .messages {
+        position: absolute;
+        width: 263px;
+        left: 32px;
+        top: 0px;
+    }
+
+    .muñeco {
+        display: none;
+    }
+
+    .message-fail {
+        width: 263px;
+    }
+
+    .message-enterText {
+        width: 263px;
+    }
+
+    .btn-copy {
+        width: 285px;
+        left: 20px;
+        top: 350px;
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+        margin: 32px 0px;
+    }
+
+    .text-copy {
+        width: 231px;
+    }
+
+}
