@@ -13,10 +13,10 @@ if(window.matchMedia("(max-width: 1024px)").matches){
 
 
 // validaremos que sea responsive para un telefono
-if((window.matchMedia("(min-width: 360px)").matches) && (window.matchMedia("(max-width: 380px)").matches)){
+if((window.matchMedia("(min-width: 360px)").matches) && (window.matchMedia("(max-width: 767px)").matches)){
     panel.style.height = "133px";
 }
 
-if(window.matchMedia("(max-width: 380px)").matches){
+if(window.matchMedia("(max-width: 767px)").matches){
     panel.style.height = "186px";
 }

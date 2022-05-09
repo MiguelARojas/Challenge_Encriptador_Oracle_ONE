@@ -363,7 +363,7 @@ body {
 
 
 /*  Cambios para celular  */
-@media screen and (min-width: 360px) and (max-width: 380px) {
+@media screen and (min-width: 360px) and (max-width: 767px) {
     .logo-alura {
         width: 100px;
         height: 50.58px;
